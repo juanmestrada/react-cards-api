@@ -1,0 +1,63 @@
+.Deck{
+    margin: auto;
+    /* height: 100vh;
+    margin: auto;
+    border: 1px solid red;
+    box-sizing: border-box; */
+}
+
+.Deck-playarea{
+    height: 316px;
+    width: 230px;
+    margin: 0 auto;
+    border: 4px dashed #2d2d2d;
+}
+
+.Deck-btn-area{
+    position: fixed;
+    left: 0;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    height: 80px;
+    z-index: 999;
+}
+
+.Deck-btn{
+    width: 125px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.draw{
+    background-color: #041676;
+}
+
+.shuffle{
+    background-color: #760e0b;
+}
+
+@media (max-width: 991px) {
+    .Deck-btn-area{
+        bottom: 0;
+        margin-top: 70px;
+        background-color: rgba(11,63,27, .8);
+    }
+    .Deck-playarea{
+        margin-top: 70px;
+    }
+}
+
+@media (min-width: 992px) {
+    .Deck{
+        width: 50vw;
+    }
+    .Deck-btn-area{
+        bottom: 50px;
+    }
+    .Deck-playarea{
+        margin-top: 100px;
+    }
+}

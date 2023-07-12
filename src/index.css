@@ -1,3 +1,8 @@
+html {
+  background-color: #076324;
+  background-image: url("http://www.transparenttextures.com/patterns/black-felt.png");
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
